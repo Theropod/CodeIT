@@ -967,26 +967,26 @@ The `mapbox` shortcode has the following named parameters to use Mapbox GL JS:
 Example simple `mapbox` input:
 
 ```markdown
-{{</* mapbox 121.485 31.233 12 */>}}
+{{</* mapbox 28.836 47.021 8 */>}}
 Or
-{{</* mapbox lng=121.485 lat=31.233 zoom=12 */>}}
+{{</* mapbox lng=28.836 lat=47.021 zoom=8 */>}}
 ```
 
 The rendered output looks like this:
 
-{{< mapbox 121.485 31.233 12 >}}
+{{< mapbox 28.836 47.021 8 >}}
 
 Example `mapbox` input with the custom style:
 
 ```markdown
-{{</* mapbox -122.252 37.453 10 false "mapbox://styles/mapbox/navigation-preview-day-v4" "mapbox://styles/mapbox/navigation-preview-night-v4" */>}}
+{{</* mapbox 28.836 47.021 8 false "mapbox://styles/mapbox/navigation-preview-day-v4" "mapbox://styles/mapbox/navigation-preview-night-v4" */>}}
 Or
-{{</* mapbox lng=-122.252 lat=37.453 zoom=10 marked=false light-style="mapbox://styles/mapbox/navigation-preview-day-v4" dark-style="mapbox://styles/mapbox/navigation-preview-night-v4" */>}}
+{{</* mapbox lng=28.836 lat=47.021 zoom=8 marked=false light-style="mapbox://styles/mapbox/navigation-preview-day-v4" dark-style="mapbox://styles/mapbox/navigation-preview-night-v4" */>}}
 ```
 
 The rendered output looks like this:
 
-{{< mapbox -122.252 37.453 10 false "mapbox://styles/mapbox/navigation-preview-day-v4?optimize=true" "mapbox://styles/mapbox/navigation-preview-night-v4?optimize=true" >}}
+{{< mapbox 28.836 47.021 8 false "mapbox://styles/mapbox/navigation-preview-day-v4?optimize=true" "mapbox://styles/mapbox/navigation-preview-night-v4?optimize=true" >}}
 
 ## 8 music
 

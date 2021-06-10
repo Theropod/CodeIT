@@ -965,26 +965,26 @@ data = [
 一个简单的 `mapbox` 示例:
 
 ```markdown
-{{</* mapbox 121.485 31.233 12 */>}}
+{{</* mapbox 28.836 47.021 8 */>}}
 或者
-{{</* mapbox lng=121.485 lat=31.233 zoom=12 */>}}
+{{</* mapbox lng=28.836 lat=47.021 zoom=8 */>}}
 ```
 
 呈现的输出效果如下:
 
-{{< mapbox 121.485 31.233 12 >}}
+{{< mapbox 28.836 47.021 8 >}}
 
 一个带有自定义样式的 `mapbox` 示例:
 
 ```markdown
-{{</* mapbox -122.252 37.453 10 false "mapbox://styles/mapbox/streets-zh-v1" */>}}
+{{</* mapbox 28.836 47.021 8 false "mapbox://styles/mapbox/streets-zh-v1" */>}}
 或者
-{{</* mapbox lng=-122.252 lat=37.453 zoom=10 marked=false light-style="mapbox://styles/mapbox/streets-zh-v1" */>}}
+{{</* mapbox lng=28.836 lat=47.021 zoom=8 marked=false light-style="mapbox://styles/mapbox/streets-zh-v1" */>}}
 ```
 
 呈现的输出效果如下:
 
-{{< mapbox -122.252 37.453 10 false "mapbox://styles/mapbox/streets-zh-v1?optimize=true" >}}
+{{< mapbox 28.836 47.021 8 false "mapbox://styles/mapbox/streets-zh-v1?optimize=true" >}}
 
 ## 8 music
 
